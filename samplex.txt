@@ -1,0 +1,16 @@
+Mr. Tomas、
+
+Hi, This is Jane.
+
+Billing charge to each client of previous month（2021/05）is as below.
+ 
+
+XXA12345612 : Tokyo co. unit number 28187 x price/unit 400 USD ＝ Total_price 11,274,800 USD 
+
+XXA34567821 : Hong Kong Co. (Contract A) unit number 28187 x price/unit 320 USD ＝ Total_price 9,019,840 USD 
+
+XXB23456734 : Oosaka co. unit number 32511 x price/unit 200 USD ＝ Total_price 6,502,200 USD 
+
+XXE56789030 : Guam Co. unit number 68995 x price/unit 500 USD ＝ Total_price 34,497,500 USD 
+
+Regards

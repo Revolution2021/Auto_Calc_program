@@ -25,7 +25,11 @@ def decox():
 		Fx='F'+str(i+2)
 		print(Fx)
 		ws1[Fx].font=font1
-		ws1[Fx].value="JPY  "+str(ws1[Fx].value)
+		ws1.cell(row=i+2,column=6).number_format="#,##0"
+		s7=ws1.cell(row=i+2,column=6).value
+#		ws1[Fx].value="USD  "+str(sz)
+#		ws1.cell(row=i+2,column=6).value=f'{"USD"} {s7:,}'
+		ws1.cell(row=i+2,column=6).value=f'{s7:,}'
 		i=i+1
 
 	i2=0

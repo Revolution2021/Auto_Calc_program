@@ -33,13 +33,12 @@ def finalx():
 		ws2.cell(row=1,column=1).value=pre_month
 		ws2.cell(row=1,column=2).value=base[16:]+"summary"
 		for i2 in range(1,10):
-#コピー元の列を定義
+
 			copy = ws1.cell(row = i2, column = 10).value
-#Valueに指定した値を指定先の列に貼り付ける
 			ws2.cell(row = i2, column = 2, value = copy)
 			ws2.cell(row=i2,column=2).number_format = "#,##0.00"
 			i2=i2+1
-			print(ws2.cell(row=4,column=2).value)
+#			print(ws2.cell(row=4,column=2).value)
 			wb2.save("final_"+base+"."+"xlsx")
 			
 			font1 = Font(color='00FF0000', size=25, italic=True, bold=True)

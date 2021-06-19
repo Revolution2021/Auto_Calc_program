@@ -44,8 +44,6 @@ def calcx():
 		ws1.cell(row=4,column=10).value= value2
 		ws1.cell(row=5,column=10).value= value3
 
-		print(type(ws1["J2"].value))
-		print(type(ws1["J3"].value))
 
 		ws1.title="calsh"
 		wb.save("data_calc__"+base+"."+"xlsx")

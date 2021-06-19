@@ -41,8 +41,12 @@ def finalsheet():
 		cmax = ws2.max_row
 		ws1.cell(row=i+2,column=2).font=font2
 		ws1.cell(row=i+2,column=3).font=font3
-		i=i+1
+		
+		ws1.cell(row=i+2,column=3).number_format="#,##0"
+		
+	i=i+1
 
+	
 	ws1.column_dimensions['D'].width=5
 	wb1.save("Summary.xlsx")
 

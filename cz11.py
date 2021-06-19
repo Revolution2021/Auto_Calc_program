@@ -24,8 +24,8 @@ def inputname():
 
 	for i1 in range(ws1max):
 		val1=ws1.cell(row=i1+2,column=2).value
-		print(val1)
-		print(val1[:11])
+#		print(val1)
+#		print(val1[:11])
 
 		for i2  in range(ws2max):
 			val2=ws2.cell(row=i2+2,column=3).value

@@ -6,7 +6,7 @@ import cz3
 import cz4
 import cz5
 import cz6
-#import cz7
+
 
 def p1v():
 
@@ -28,5 +28,4 @@ def p1v():
 	cz6.finalsheet()
 	sleep(2)
 
-	#cz7.openx()
-
+	

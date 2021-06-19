@@ -23,6 +23,7 @@ def totalcalc():
 		print(val7a)
 		val7x=val7a*val7b
 		ws1.cell(row=i1+2,column=6).value=val7x
+		ws1.cell(row=i1+2,column=6).number_format="#,##0"
 		i1=i1+1
 
 	wb1.save("modified2x_summary.xlsx")
