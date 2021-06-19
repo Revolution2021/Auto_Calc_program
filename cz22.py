@@ -39,11 +39,5 @@ def cleandata():
 	wb1.Save()
 	wb1.Close()
 
-#	sleep(2)
-
-#	wb2= px.load_workbook("modified4x_summary.xlsx",data_only=True)
-#	ws1=wb1.worksheets[0]
-	
-#	wb2.save("modified5x_summary.xlsx")
 
 
