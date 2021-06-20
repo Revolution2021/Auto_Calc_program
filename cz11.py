@@ -24,14 +24,12 @@ def inputname():
 
 	for i1 in range(ws1max):
 		val1=ws1.cell(row=i1+2,column=2).value
-#		print(val1)
-#		print(val1[:11])
+
 
 		for i2  in range(ws2max):
 			val2=ws2.cell(row=i2+2,column=3).value
 			val3=ws2.cell(row=i2+2,column=7).value
 			if val2==val1[:11]:
-				print("bingo")
 				ws1.cell(row=i1+2,column=1).value=ws2.cell(row=i2+2,column=4).value
 				ws1.cell(row=i1+2,column=1).font=font2
 				ws1.cell(row=i1+2,column=9).font=font3

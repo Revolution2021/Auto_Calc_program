@@ -8,7 +8,7 @@ from time import sleep
 import codecs
 
 def totext():
-	wb1= px.load_workbook("modified4x_summary.xlsx",data_only=True)
+	wb1= px.load_workbook("modified3x_summary.xlsx",data_only=True)
 	ws1=wb1.worksheets[0]
 
 	ws1max=ws1.max_row
