@@ -16,9 +16,9 @@ data = f.read()
 print(data)
 pre_month=datetime.strftime(datetime.today()-relativedelta(months=1),"%m")
 
-mail.to = 'userx1@gmail.com;usery@hotmail.com'  #
+mail.to = 'userx@gmail.com;usery@hotmail.com'  #Input real email destination
 mail.cc = 'userz@gmail.com'
-mail.subject = 'Billing Charge '+pre_month+'
+mail.subject = 'Billing Charge' 
 mail.bodyFormat = 1
 mail.body = data
 
