@@ -16,9 +16,9 @@ data = f.read()
 print(data)
 pre_month=datetime.strftime(datetime.today()-relativedelta(months=1),"%m")
 
-mail.to = 'userx1@gmail.com;usery@hotmail.com'
+mail.to = 'userx1@gmail.com;usery@hotmail.com'  #
 mail.cc = 'userz@gmail.com'
-mail.subject = 'IMSI提供サービス (GBD担当) 従量変動単価案件の請求 2021年'+pre_month+'月分'
+mail.subject = 'Billing Charge '+pre_month+'
 mail.bodyFormat = 1
 mail.body = data
 
